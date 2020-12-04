@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StartQuizFragment"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Memory Test"
+        android:textSize="50sp"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ver 2020/11/15"
+        android:textSize="20sp"
+        android:layout_marginTop="30dp"/>
+
+    <Button
+        android:id="@+id/quiz_start_button"
+        android:layout_width="220dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="50dp"
+        android:text="テスト開始"
+        android:textSize="30sp" />
+
+</LinearLayout>

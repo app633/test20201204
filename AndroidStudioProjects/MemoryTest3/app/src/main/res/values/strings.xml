@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Memory Test 3</string>
+
+    <string name="tab_text_1">テスト</string>
+    <string name="tab_text_2">一覧</string>
+    <string name="tab_text_3">オプション</string>
+
+    <string-array name="questionNumberList">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+    </string-array>
+</resources>
